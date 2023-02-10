@@ -1,5 +1,13 @@
 .App {
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  gap: 20px;
+}
+.col {
+  height: 200px;
+  width: 200px;
+  background-color: bisque;
 }
 
 .App-logo {
